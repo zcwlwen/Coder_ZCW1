@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ZCWNavigationController.h"
+#import "ZCWTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //创建窗口
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    //设置窗口的根视图控制器
+    ZCWTabBarController *zcwTabBarVC = [[ZCWTabBarController alloc]init];
+    self.window.rootViewController = zcwTabBarVC;
+    //显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

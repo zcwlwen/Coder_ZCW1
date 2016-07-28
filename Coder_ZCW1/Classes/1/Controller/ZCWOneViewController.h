@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZCWOneViewController.h
 //  Coder_ZCW1
 //
 //  Created by 张朝伟 on 16/7/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZCWOneViewController : UITableViewController
 
 @end
-
