@@ -1,6 +1,6 @@
-# Coder_ZCW1
-纯代码搭建主流框架
+# 纯代码搭建主流框架
 
+以前参考[Coder_CXY](http://www.jianshu.com/users/3f995dac0230/latest_articles)的文章做的
 纯代码搭建TabBarController
 纯代码搭建设置界面
 包括简单动画
